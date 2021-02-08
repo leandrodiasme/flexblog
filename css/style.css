@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&display=swap");
+body, h1, h2, p, ul, li, a {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Nunito", Arial, Helvetica, sans-serif;
+  color: #222222;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/*Superinfo*/
+.superinfo-bg {
+  background: #122ab2;
+  color: white;
+}
+
+.superinfo {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 10px;
+}
+.superinfo a {
+  color: white;
+}
+.superinfo p, .superinfo a {
+  margin: 0 10px 10px 10px;
+}
+
+.menu-bg {
+  background: #2c70ff;
+}
+.menu-bg .menu {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 15px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu-bg .menu a {
+  color: white;
+}
+.menu-bg .menu .menu-logo {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0 10px;
+}
+.menu-bg .menu .menu-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.menu-bg .menu .menu-nav a {
+  font-size: 20px;
+  display: block;
+  padding: 10px;
+}
+.menu-bg .menu .menu-nav a:hover {
+  color: #122ab2;
+}
+
+.intro {
+  font-size: 48px;
+  line-height: 1;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 60px 10px;
+}
+
+.about {
+  border-top: 2px solid #122ab2;
+  border-bottom: 2px solid #122ab2;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 60px 0;
+  display: flex;
+  flex-wrap: flex;
+}
+.about .about-info {
+  flex: 2 1 300px;
+  margin: 0 10px;
+}
+.about .about-info h1 {
+  font-size: 48px;
+  margin-bottom: 0.5em;
+}
+.about .about-info p {
+  font-size: 20px;
+  line-height: 1.4;
+  margin-bottom: 1em;
+  color: #7c7c7c;
+}
+.about .about-img {
+  flex: 1 1 160px;
+  margin: 0 10px;
+}
+
+.products {
+  max-width: 960px;
+  margin: 60px auto;
+}
+.products h1 {
+  font-size: 3em;
+  margin: 0 10px 60 10px;
+}
+.products .products-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+.products .products-container .products-item {
+  flex: 1 1 175px;
+  margin: 10px;
+}
+.products .products-container .products-item h2 {
+  font-size: 48px;
+  color: #a4a4a4;
+  background: #f7f7f7;
+  padding: 60px 20px;
+}
+.products .products-container .blue {
+  border-top: 8px solid #66d9eb;
+}
+.products .products-container .pink {
+  border-top: 8px solid #f9265e;
+}
+.products .products-container .purple {
+  border-top: 8px solid #ae81ff;
+}
+
+/*# sourceMappingURL=style.css.map */

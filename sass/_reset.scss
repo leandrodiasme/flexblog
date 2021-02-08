@@ -1,0 +1,32 @@
+@import "colors";
+
+body, h1, h2, p, ul, li, a{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Nunito', Arial, Helvetica, sans-serif;
+    color: $black;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+@mixin border($color){
+   border-top: 8px solid $color;
+}
